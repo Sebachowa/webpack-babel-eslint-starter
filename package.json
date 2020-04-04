@@ -1,7 +1,6 @@
 {
   "name": "webpack-babel-eslint-starter",
   "version": "1.0.0",
-  "description": "",
   "main": "src/main.js",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.config.js --env.env=dev",
@@ -9,7 +8,7 @@
     "build:analyze": "npm run build -- --env.addon=bundleanalyze --env.addon=bundlevisualizer",
     "clean": "rm -rf node_modules && rm package-lock.json"
   },
-  "author": "Sebastian Nugnez <sebastian.nugnez@gmail.com>",
+  "author": "Sebastian Nugnez",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
